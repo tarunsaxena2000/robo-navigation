@@ -1,0 +1,173 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; 
+}
+
+
+.divBox {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #007bff;
+    color: #fff; 
+    font-size: 18px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.divBox:hover {
+    background-color: #0056b3;
+  
+}
+
+.rightCenter {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(0, -50%);
+}
+
+.topCenter {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+
+.leftBottom {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 200px;
+    
+}
+
+.bottomCenter {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    max-width: 90%; 
+    padding: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+
+
+
+@media only screen and (min-width: 400px) {
+    .divBox {
+        width: 60px;
+        height: 60px;
+    }
+
+    .leftBottom {
+        width: 120px;
+    }
+
+    .center {
+        width: 150px;
+    }
+    .bottomCenter {
+         width: 100px;
+    }
+}
+
+
+@media only screen and (max-width: 399px) {
+    .divBox {
+        width: 60px;
+        height: 60px;
+    }
+
+    .leftBottom {
+        width: 80px;
+    }
+
+    .center {
+        width: 70px;
+    }
+    .bottomCenter {
+         width: 60px;
+    }
+}
+
+
+@media only screen and (min-width: 768px) {
+    .divBox {
+        width: 60px;
+        height: 60px;
+    }
+
+    .leftBottom {
+        width: 300px;
+    }
+
+    .center {
+        width: 500px;
+    }
+    .bottomCenter {
+         width: 130px;
+    }
+    .topCenter{
+        width: 100px;
+    }
+    .rightCenter{
+        width: 100px;
+
+    }
+    
+    
+}
+
+
+@media only screen and (min-width: 769px) {
+    .divBox {
+        width: 60px;
+        height: 60px;
+    }
+
+    .leftBottom {
+        width: 400px;
+    }
+
+    .center {
+        width: 500px;
+    }
+    .bottomCenter {
+         width: 140px;
+    }
+    .topCenter{
+        width: 100px;
+    }
+    .rightCenter{
+        width: 100px;
+
+    }
+}
+
+
+@media only screen and (min-width: 1200px) {
+    
+}
